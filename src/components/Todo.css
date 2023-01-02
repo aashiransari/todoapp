@@ -1,0 +1,74 @@
+.inputList input {
+    padding: 5px 0 !important;
+    padding-left: 10px !important;
+    outline: none;
+    border: 0;
+}
+
+.addBtn {
+    padding: 5px 25px !important;
+    background-color: #0b63ac;
+    outline: none;
+    border: 0;
+}
+
+.removeBtn {
+    padding: 5.5px 16.5px !important;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: 0;
+}
+
+.removeBtn {
+    border-radius: 5px;
+}
+
+.removeBtn:hover {
+    transition: .2s;
+    background-color: #ffca00;
+}
+
+.showItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eachItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    border-radius: 4px;
+    background-color: rgb(68, 11, 109) !important;
+    color: white;
+    height: 35px;
+}
+
+.eachItem:hover {
+    background-color: white !important;
+    transition: .2s;
+    color: black;
+}
+
+.eachItem h3,
+i {
+    margin: 10px !important;
+    font-size: 16px !important;
+}
+
+.eachItem i {
+    cursor: pointer;
+}
+
+.delBtn{
+    margin: 10px !important;
+    cursor: pointer;
+    transition: .2s;
+    scale: 1;
+}
+.delBtn:hover{
+    scale: 1.2;
+}
